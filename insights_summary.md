@@ -2,15 +2,13 @@
 
 ---
 
-# 📈 SALES PERFORMANCE INSIGHTS
+# 📈 Sales Performance Insights
 
 ## 1️⃣ Overall Revenue
 
 Total revenue in 2013 reached **37,106,886.93**.
 
 This serves as the baseline for evaluating territory contribution, product concentration, and salesperson performance.
-
----
 
 ## 2️⃣ Revenue Concentration by Territory
 
@@ -30,8 +28,6 @@ Revenue is highly concentrated geographically.
 - Strong regional dominance
 - Potential risk if key territories decline
 - Opportunity to scale underperforming regions
-
----
 
 ## 3️⃣ Product Revenue Concentration
 
@@ -56,8 +52,6 @@ Only five products generate one-quarter of total revenue.
 - Cross-selling opportunity
 - Dependency risk on high-performing products
 
----
-
 ## 4️⃣ Revenue Seasonality
 
 - **Highest Month:** June → 5,726,265.26  
@@ -73,8 +67,6 @@ There is a strong mid-year revenue spike.
 - Potential seasonal demand pattern
 - Q2 may be peak sales cycle
 - Marketing and inventory planning should align with mid-year demand surge
-
----
 
 ## 5️⃣ Salesperson Contribution Inequality
 
@@ -119,8 +111,6 @@ Workforce is heavily concentrated in Production.
 - Lean executive structure
 - High dependency on manufacturing operations
 
----
-
 ## 7️⃣ Job Title Distribution
 
 Highest headcount roles:
@@ -140,8 +130,6 @@ Organizational structure resembles a pyramid:
 
 This is typical of manufacturing-focused companies.
 
----
-
 ## 8️⃣ Employee Tenure
 
 Longest tenure observed: **9 years**
@@ -160,8 +148,6 @@ However, tenure below 10 years may also suggest:
 
 - Growth phase
 - Workforce renewal cycle
-
----
 
 # 🎯 Analytical Value Demonstrated
 
