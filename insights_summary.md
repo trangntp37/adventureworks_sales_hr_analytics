@@ -1,5 +1,4 @@
 # SQL Sales & HR Analytics – Business Insights (2013)
-
 ---
 
 # 📈 Sales Performance Insights
