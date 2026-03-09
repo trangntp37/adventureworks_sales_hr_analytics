@@ -55,18 +55,31 @@ The objective is to demonstrate the ability to **extract insights from relationa
 
 ## 📁 Project Structure
 SQL-Sales-HR-Analytics
+
 │
+
 ├── sql
+
 │   └── adventureworks_sales_hr_analytics.sql
+
 │
+
 ├── dashboard
+
 │   ├── dashboard_preview.png
+
 │   └── sales_performance_dashboard_2013.pbix
+
 │
+
 ├── insights
+
 │   └── insights_summary.md
+
 │
+
 └── README.md
+
 
 ---
 
