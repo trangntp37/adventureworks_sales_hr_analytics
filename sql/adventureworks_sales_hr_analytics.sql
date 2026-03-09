@@ -1,7 +1,7 @@
 /*
 Project: SQL Sales & HR Analytics
 Dataset: AdventureWorks2019
-Tool: Azure Data Studio
+Tool: Visual Studio Code with SQL Server Extension
 
 Author: Nguyen Thi Phuong Trang
 
