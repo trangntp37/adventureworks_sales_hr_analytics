@@ -28,7 +28,7 @@ The objective is to demonstrate the ability to **extract insights from relationa
 
 ## 📊 Power BI Dashboard
 
-![Sales Dashboard](dashboard/dashboard_preview.png)
+![Sales Dashboard](dashboard/sales_dashboard_preview.png)
 
 **Dashboard Highlights**
 
@@ -54,6 +54,7 @@ The objective is to demonstrate the ability to **extract insights from relationa
 ---
 
 ## 📁 Project Structure
+
 SQL-Sales-HR-Analytics
 │
 ├── sql
