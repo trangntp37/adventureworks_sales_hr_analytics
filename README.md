@@ -77,13 +77,38 @@ SQL-Sales-HR-Analytics
 
 ### SQL Techniques
 
-- **JOINs** (INNER JOIN, LEFT JOIN) to combine data across multiple tables
-- **Aggregate Functions** (`SUM`, `COUNT`, `AVG`) to calculate key metrics
-- **GROUP BY** to summarize revenue by product, territory, and salesperson
-- **Window Functions** (`RANK()`, `ROW_NUMBER()`) to identify top-performing products and salespeople
-- **Date Functions** (`YEAR()`, `MONTH()`, `DATENAME()`) for time-based analysis
-- **Filtering and Conditional Logic** using `WHERE` and `CASE`
-- **Subqueries and CTEs** for structured analytical queries
+- **JOIN operations** (`LEFT JOIN`) to integrate data across multiple relational tables
+- **Aggregate Functions** (`SUM`, `COUNT`) to compute key business metrics such as revenue and employee headcount
+- **GROUP BY** to summarize performance by territory, product, salesperson, and department
+- **TOP and ORDER BY** to identify best-performing entities (e.g., top products and longest-tenured employees)
+- **Window Functions** (`ROW_NUMBER()`, `RANK()`, `OVER(PARTITION BY)`) for ranking customers, months, and departments
+- **Window Aggregation** (`SUM() OVER()`) to calculate total revenue and contribution ratios
+- **Common Table Expressions (CTEs)** to structure complex analytical queries
+- **UNION ALL** to combine results for comparative analysis (e.g., highest vs. lowest revenue months)
+- **Date Functions** (`YEAR()`, `MONTH()`, `DATEDIFF()`) for time-based sales and tenure analysis
+- **String Functions** (`CONCAT_WS`) to format employee names
+- **Data Type Conversion** using `CAST()` for precise numeric calculations
+- **Filtering and Conditional Logic** using `WHERE` and `IS NOT NULL`
+- **User-Defined Function (UDF)** to calculate employee tenure dynamically
+
+### Analytical Skills
+
+- Revenue concentration analysis by territory
+- Product performance evaluation
+- Customer contribution identification
+- Seasonal revenue trend detection
+- Salesperson performance ranking
+- Workforce distribution analysis
+- Department headcount comparison
+- Employee tenure analysis
+
+### Business Intelligence
+
+- Dashboard development using **Power BI**
+- KPI design and visualization
+- Revenue trend visualization
+- Performance comparison across regions and employees
+- Data storytelling through interactive dashboards
 
 ---
 
