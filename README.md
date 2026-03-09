@@ -95,19 +95,12 @@ A Microsoft sample dataset that simulates a manufacturing and retail business en
 Key tables used:
 
 Sales:
-
 - Sales.SalesOrderHeader
-
 - Sales.SalesOrderDetail
-
 - Sales.SalesTerritory
-
 - Sales.SalesPerson
 
 Human Resources:
-
 - HumanResources.Employee
-
 - HumanResources.EmployeeDepartmentHistory
-
 - HumanResources.Department
