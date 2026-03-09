@@ -28,7 +28,7 @@ The objective is to demonstrate the ability to **extract insights from relationa
 
 ## 📊 Power BI Dashboard
 
-![Sales Dashboard](dashboard/sales_dashboard_preview.png)
+![Sales Dashboard](dashboard/dashboard_preview.png)
 
 **Dashboard Highlights**
 
@@ -49,7 +49,7 @@ The objective is to demonstrate the ability to **extract insights from relationa
 - **Workforce structure:** Over **60% of employees work in production roles**, reflecting an operations-focused organization.
 
 ➡️ **Full analysis available here:**  
-[View Detailed Insights](insights/insights_summary.md)
+[View Detailed Insights](insights_summary.md)
 
 ---
 
@@ -57,11 +57,11 @@ The objective is to demonstrate the ability to **extract insights from relationa
 SQL-Sales-HR-Analytics
 │
 ├── sql
-│   ├── sales_analysis.sql
-│   └── hr_analysis.sql
+│   └── adventureworks_sales_hr_analysis.sql
 │
 ├── dashboard
-│   └── sales_dashboard_preview.png
+│   ├── sales_performance_dashboard_2013.pbix
+│   └── dashboard_preview.png
 │
 ├── insights
 │   └── insights_summary.md
