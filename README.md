@@ -55,6 +55,7 @@ The objective is to demonstrate the ability to **extract insights from relationa
 
 ## 📁 Project Structure
 
+```
 SQL-Sales-HR-Analytics
 │
 ├── sql
@@ -68,7 +69,7 @@ SQL-Sales-HR-Analytics
 │   └── insights_summary.md
 │
 └── README.md
-
+```
 
 ---
 
