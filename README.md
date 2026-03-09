@@ -49,7 +49,7 @@ The objective is to demonstrate the ability to **extract insights from relationa
 - **Workforce structure:** Over **60% of employees work in production roles**, reflecting an operations-focused organization.
 
 ➡️ **Full analysis available here:**  
-[View Detailed Insights](insights_summary.md)
+[View Detailed Insights](insights/insights_summary.md)
 
 ---
 
@@ -57,11 +57,11 @@ The objective is to demonstrate the ability to **extract insights from relationa
 SQL-Sales-HR-Analytics
 │
 ├── sql
-│   └── adventureworks_sales_hr_analysis.sql
+│   └── adventureworks_sales_hr_analytics.sql
 │
 ├── dashboard
-│   ├── sales_performance_dashboard_2013.pbix
-│   └── dashboard_preview.png
+│   ├── dashboard_preview.png
+│   └── sales_performance_dashboard_2013.pbix
 │
 ├── insights
 │   └── insights_summary.md
@@ -70,19 +70,17 @@ SQL-Sales-HR-Analytics
 
 ---
 
-## 🎯 Skills Demonstrated
+## 🧠 Skills Demonstrated
 
-- SQL data analysis
+### SQL Techniques
 
-- Business insight generation
-
-- Data visualization with Power BI
-
-- Sales performance analysis
-
-- Organizational workforce analysis
-
-- Data storytelling
+- **JOINs** (INNER JOIN, LEFT JOIN) to combine data across multiple tables
+- **Aggregate Functions** (`SUM`, `COUNT`, `AVG`) to calculate key metrics
+- **GROUP BY** to summarize revenue by product, territory, and salesperson
+- **Window Functions** (`RANK()`, `ROW_NUMBER()`) to identify top-performing products and salespeople
+- **Date Functions** (`YEAR()`, `MONTH()`, `DATENAME()`) for time-based analysis
+- **Filtering and Conditional Logic** using `WHERE` and `CASE`
+- **Subqueries and CTEs** for structured analytical queries
 
 ---
 
