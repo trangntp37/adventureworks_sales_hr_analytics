@@ -1,159 +1,242 @@
-# SQL Sales & HR Analytics – Business Insights (2013)
+# SQL Sales & HR Analytics – AdventureWorks Business Insights (2013)
+
+## 📌 Project Overview
+
+This project analyzes **AdventureWorks 2013 sales and workforce data** using **SQL Server and Power BI** to uncover key business insights.
+
+The analysis focuses on:
+
+- **Revenue performance**
+- **Regional sales distribution**
+- **Product revenue concentration**
+- **Salesperson contribution**
+- **Workforce structure and tenure**
+
+The objective is to demonstrate the ability to **transform raw data into meaningful business insights and data-driven decisions**.
+
+---
+
+## 📊 Key Business Metrics (2013)
+
+### **Sales Performance**
+
+- **Total Revenue:** **$49.0M**  
+- **Total Orders:** **31.5K**  
+- **Average Order Value:** **$3.9K**
+
+These metrics provide a **high-level overview of company sales performance** and serve as the foundation for deeper analysis.
+
 ---
 
 # 📈 Sales Performance Insights
 
-## 1️⃣ Overall Revenue
+## 1️⃣ Revenue Trend & Seasonality
 
-Total revenue in 2013 reached **37,106,886.93**.
+Revenue fluctuated throughout the year with noticeable peaks.
 
-This serves as the baseline for evaluating territory contribution, product concentration, and salesperson performance.
-
-## 2️⃣ Revenue Concentration by Territory
-
-- **Southwest** → 10,239,209.34 (**27.6%** of total revenue)
-- **Canada** → 7,010,449.70 (**18.9%**)
-- **Northwest** → 6,759,500.67 (**18.2%**)
-- **Southeast (lowest)** → 2,705,730.97 (**7.3%**)
+- **Peak Months:** **June** and **October**  
+- **Lowest Month:** **January**
 
 ### 🔎 Insight
 
-Revenue is highly concentrated geographically.
+Sales activity increases significantly during **mid-year and early Q4**, indicating clear **seasonal demand patterns**.
 
-- Top 3 territories contribute approximately **64.7% of total revenue**
-- Southwest alone accounts for nearly **one-third** of company revenue
+**Business implications**
 
-**Business implication:**
-- Strong regional dominance
-- Potential risk if key territories decline
-- Opportunity to scale underperforming regions
-
-## 3️⃣ Product Revenue Concentration
-
-Top 5 products generated:
-
-- Product 782 → 2,212,974.78  
-- Product 783 → 1,932,388.29  
-- Product 779 → 1,815,673.09  
-- Product 784 → 1,666,660.02  
-- Product 781 → 1,657,616.28  
-
-**Total Top 5 Revenue: 9,285,312.47**
-
-This represents **25.0% of total 2013 revenue**.
-
-### 🔎 Insight
-
-Only five products generate one-quarter of total revenue.
-
-**Business implication:**
-- Revenue concentration in limited SKUs
-- Cross-selling opportunity
-- Dependency risk on high-performing products
-
-## 4️⃣ Revenue Seasonality
-
-- **Highest Month:** June → 5,726,265.26  
-- **Lowest Month:** January → 2,340,061.55  
-
-Revenue in June was approximately **145% higher than January**.
-
-### 🔎 Insight
-
-There is a strong mid-year revenue spike.
-
-**Business implication:**
-- Potential seasonal demand pattern
-- Q2 may be peak sales cycle
-- Marketing and inventory planning should align with mid-year demand surge
-
-## 5️⃣ Salesperson Contribution Inequality
-
-Top performer (SalesPersonID 276):
-
-- Revenue → 4,637,217.83  
-- Contribution → **12.5% of total revenue**
-
-Top 3 salespeople combined contribute approximately **37.1% of total revenue**.
-
-### 🔎 Insight
-
-Revenue distribution across the sales team is uneven.
-
-- A small group drives a large share of revenue
-- Bottom performers contribute less than 3% individually
-
-**Business implication:**
-- Performance gap within sales team
-- High dependency on top performers
-- Opportunity for training, redistribution, or incentive restructuring
+- Marketing campaigns should align with **peak sales periods**
+- Inventory planning should anticipate **mid-year demand spikes**
+- Sales forecasting can incorporate **seasonal trends**
 
 ---
 
-# 👥 HUMAN RESOURCES INSIGHTS
+## 2️⃣ Revenue Concentration by Territory
 
-## 6️⃣ Workforce Distribution
+Top performing regions include:
+
+- **Southwest** → ~**21%** of total revenue  
+- **Canada** → strong secondary contributor  
+- **Northwest** → another major revenue source  
+
+### 🔎 Insight
+
+Revenue is **geographically concentrated**, with a few territories driving a **large share of total sales**.
+
+**Business implications**
+
+- Strong regional markets generate most revenue  
+- Over-reliance on a few regions introduces **potential risk**  
+- Underperforming territories represent **growth opportunities**
+
+---
+
+## 3️⃣ Product Revenue Concentration
+
+The **top-selling products each generated more than $2M in revenue**.
+
+### 🔎 Insight
+
+A relatively small number of products generate a **large portion of overall revenue**.
+
+**Business implications**
+
+- High-performing products are critical to business success  
+- Cross-selling opportunities exist around **popular products**  
+- Product portfolio diversification could reduce **dependency risk**
+
+---
+
+## 4️⃣ Salesperson Performance
+
+Top performing salespeople generated **over $4.5M in revenue each**.
+
+### 🔎 Insight
+
+Sales performance is **uneven across the sales team**.
+
+- **Top 3 salespeople contribute more than one-third of total revenue**
+
+**Business implications**
+
+- High dependence on a **small group of top performers**
+- Potential performance gap within the **sales team**
+- Opportunities for **training and incentive optimization**
+
+---
+
+# 👥 Human Resources Insights
+
+## 5️⃣ Workforce Distribution
 
 Total active employees: **290**
 
-Department breakdown:
+Department distribution:
 
-- **Production** → 179 employees (**61.7% of workforce**)
-- **Executive** → 2 employees (**0.7%**)
+- **Production** → **179 employees (61.7%)**
+- **Executive** → **2 employees (0.7%)**
 
 ### 🔎 Insight
 
-Workforce is heavily concentrated in Production.
+The workforce is heavily concentrated in **production-related roles**.
 
-**Business implication:**
-- Operationally driven organization
+**Business implications**
+
+- Organization is strongly **operations-driven**
 - Lean executive structure
-- High dependency on manufacturing operations
+- Business success relies heavily on **operational efficiency**
 
-## 7️⃣ Job Title Distribution
+---
+
+## 6️⃣ Job Title Distribution
 
 Highest headcount roles:
 
-- Production Technician levels → 26 employees each
+- **Production Technician levels** → **26 employees each**
 
 Lowest headcount roles:
 
-- Most managerial and executive roles → 1 employee each
+- Most **managerial and executive positions** → **1 employee each**
 
 ### 🔎 Insight
 
-Organizational structure resembles a pyramid:
+The organizational structure resembles a **pyramid model**:
 
-- Broad operational base
-- Narrow leadership layer
+- Large **operational workforce base**
+- Small **leadership layer**
 
-This is typical of manufacturing-focused companies.
+This structure is typical of **manufacturing-focused organizations**.
 
-## 8️⃣ Employee Tenure
+---
 
-Longest tenure observed: **9 years**
+## 7️⃣ Employee Tenure
 
-Multiple employees have **8+ years** of service.
+- **Longest tenure observed:** ~**9 years**
+- Multiple employees have **8+ years of service**
 
 ### 🔎 Insight
 
-Presence of long-tenured employees indicates:
+The presence of long-tenured employees suggests:
 
-- Organizational stability
-- Institutional knowledge retention
-- Leadership continuity potential
+- **Workforce stability**
+- **Institutional knowledge retention**
+- **Leadership continuity potential**
 
-However, tenure below 10 years may also suggest:
+At the same time, tenure below 10 years across many employees may indicate **organizational growth and workforce renewal**.
 
-- Growth phase
-- Workforce renewal cycle
+---
 
-# 🎯 Analytical Value Demonstrated
+# 📊 Power BI Dashboard
+
+An interactive **Sales Performance Dashboard** was built to visualize key findings.
+
+### **KPI Metrics**
+
+- **Total Revenue**
+- **Total Orders**
+- **Average Order Value**
+
+### **Visual Analytics**
+
+- **Revenue Trend**  
+  Monthly revenue performance
+
+- **Revenue by Territory**  
+  Regional sales comparison
+
+- **Top Products by Revenue**  
+  Identification of best-selling products
+
+- **Salesperson Performance**  
+  Ranking of top revenue contributors
+
+### **Interactive Features**
+
+- Territory **slicer** for regional analysis  
+- Dynamic **filtering** for performance comparison
+
+---
+
+# 🧠 Analytical Skills Demonstrated
 
 This project demonstrates the ability to:
 
-- Quantify revenue concentration
-- Measure contribution inequality
-- Identify seasonal revenue patterns
-- Analyze workforce structure
-- Translate SQL outputs into business insights
+- Analyze **large relational datasets using SQL**
+- Identify **revenue concentration patterns**
+- Detect **seasonal sales trends**
+- Evaluate **salesperson performance inequality**
+- Analyze **organizational workforce structure**
+- Build **interactive Power BI dashboards**
+- Translate **data into actionable business insights**
+
+---
+
+# 🛠 Tools & Technologies
+
+- **SQL Server (T-SQL)**
+- **AdventureWorks Database**
+- **Power BI**
+- **Data Visualization**
+- **Business Intelligence**
+
+---
+
+# 📷 Dashboard Preview
+
+![Sales Dashboard](dashboard/dashboard_preview.png)
+
+---
+
+# 🎯 Project Value
+
+This project illustrates how **data analytics supports business decision-making** by helping organizations:
+
+- Understand **where revenue is generated**
+- Identify **top-performing products and regions**
+- Detect **seasonal demand patterns**
+- Evaluate **sales team performance**
+- Analyze **workforce structure and stability**
+
+---
+
+**Portfolio Focus**
+
+**SQL Analytics • Business Intelligence • Sales Data Analysis • HR Data Analysis**
